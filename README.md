@@ -29,7 +29,7 @@ Download weights:
 ConOrd model [Google Drive](https://drive.google.com/drive/folders/1m4RPA0WlaRTro978DaZmO6TfJ-UHLerh)
 
 ### Evaluation
-For evaluation, please download the datasets and models, and then configure the path in [config.yml](https://github.com/cwlee00/ConOrd/tree/clean-up/config)
+For evaluation, please download the datasets and models, and then configure the path in [config.yml](https://github.com/cwlee00/ConOrd/tree/main/config)
 
 ```
 python test.py \
@@ -37,7 +37,7 @@ python test.py \
 --dataset=clap
 ```
 ### Train
-For training, please download the datasets, and then configure the path in [config.yml](https://github.com/cwlee00/ConOrd/tree/clean-up/config)
+For training, please download the datasets, and then configure the path in [config.yml](https://github.com/cwlee00/ConOrd/tree/main/config)
 ```
 python train.py \
 --dataset=clap \
